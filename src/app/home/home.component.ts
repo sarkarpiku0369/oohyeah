@@ -23,14 +23,14 @@ export class HomeComponent implements OnInit {
       content:"Offer pre-order album sales or crowdfund their next project without making fans making fans jump through hoops or levels", 
     },  
     { 
-      img: "assets/images/offer4.jpg",
-      text: "Sell Items",
-      content:"Sell unlimited store items in our commission free marketplace",
+      img: "assets/images/Icon.png",
+      text: "Income",
+      content:"Forecast income and monitor stroaming analytics.",
      }, 
      { 
-      img: "assets/images/offer5.jpg",
-      text: "Sell Items",
-      content:"Sell unlimited store items in our commission free marketplace",
+      img: "assets/images/Icon7.png",
+      text: "Offer",
+      content:"Offer voucher codes to special fan club members and create flash sales for store products.",
      },  
   ]; 
 
