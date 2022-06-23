@@ -12,6 +12,8 @@ import { OwlModule } from 'ngx-owl-carousel';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { ArtistsignupComponent } from './artistsignup/artistsignup.component';
+import { EstimationComponent } from './estimation/estimation.component';
+import { EstimateResultComponent } from './estimate-result/estimate-result.component';
 
 
 @NgModule({
@@ -24,7 +26,9 @@ import { ArtistsignupComponent } from './artistsignup/artistsignup.component';
     NotfoundComponent,
     LoginComponent,
     RegisterComponent,
-    ArtistsignupComponent
+    ArtistsignupComponent,
+    EstimationComponent,
+    EstimateResultComponent
   ],
   imports: [
     

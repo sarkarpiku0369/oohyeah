@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './about/about.component';
 import { ArtistsignupComponent } from './artistsignup/artistsignup.component';
+import { EstimateResultComponent } from './estimate-result/estimate-result.component';
+import { EstimationComponent } from './estimation/estimation.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { NotfoundComponent } from './notfound/notfound.component';
@@ -13,6 +15,8 @@ const routes: Routes = [
   {path:"login",component:LoginComponent },
   {path:"register",component:RegisterComponent},
   {path:"artistsignup",component:ArtistsignupComponent},
+  {path:"estimation",component:EstimationComponent},
+  {path:"estimation-result",component:EstimateResultComponent},
   {path:"**",component:NotfoundComponent}
 ];
 

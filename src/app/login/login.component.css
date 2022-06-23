@@ -167,47 +167,46 @@ a.forgot-link{
 .api-login-btn{
     display: block;
     width: 100%;
-    height: 52px;
-    border-radius: 8px;
+    height: 46px;
+    border-radius: 6px;
     margin-bottom: 20px;
     border: 0 none;
-    background: #2D9CDB;
-    font-size: 20px;
+    background: #4267B2;
+    font-size: 15px;
     font-weight: 700;
     color: #fff;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 .api-login-btn i {
     display: inline-block;
-    width: 20px;
-    height: 20px;
-    background: #fff;
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 18px;
     text-align: center;
     border-radius: 50%;
-    color: #2D9CDB;
+    color: #fff;
     margin-right: 5px;
 }
 
 .google-login{
-    background: #FF451C;
+    background: #EA4335;
 }
 
 .api-login-btn.google-login i{
-    color: #FF451C;
+    color: #fff;
 }
 
 
-.twitter-login{
-    background: #56CCF2;
+.apple-login{
+    background: #fff;
 }
 
-.api-login-btn.twitter-login i{
-    color: #56CCF2;
+.api-login-btn.apple-login i{
+    color: #000;
 }
 
+.api-login-btn.apple-login{
+    color: #000;
+}
 p.singup-link{
     color: #fff;
     text-align: center;
